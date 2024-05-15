@@ -10,6 +10,7 @@ class CollEg
 		al.add("Ritika");
 		al.add("Sakshi");
 		al.add("Vaibhav");
+		al.add("Deepikkaa");
 		al.add(new Integer(123));
 		al.add(4.5);		// Auto-Boxing
 		al.add(true);
