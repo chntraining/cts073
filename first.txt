@@ -1,1 +1,25 @@
-Hello my dear students. good
+import java.util.*;
+
+class CollEg
+{
+
+	public static void main(String[] args) {
+		List al = new ArrayList();    //LInkedList,Vector
+		al.add("Shankar");
+		al.add("Sakshi");
+		al.add("Ritika");
+		al.add("Sakshi");
+		al.add("Vaibhav");
+		al.add(new Integer(123));
+		al.add(4.5);		// Auto-Boxing
+		al.add(true);
+		System.out.println(al);
+		
+		Iterator ele = al.iterator();
+		while(ele.hasNext())
+		{
+			System.out.println(ele.next());
+		}
+
+	}
+}
