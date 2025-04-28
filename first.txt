@@ -5,7 +5,7 @@ class CollEg
 
 	public static void main(String[] args) {
 		List al = new ArrayList();    //LInkedList,Vector
-		al.add("Shankar");
+		al.add("ShankarM");
 		al.add("Sakshi");
 		al.add("Ritika");
 		al.add("Sakshi");
